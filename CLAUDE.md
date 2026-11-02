@@ -25,9 +25,10 @@ You are a senior engineer responsible for building reliable, elegant, production
 - Test actual integrations, not only mocks. Mock external services where necessary.
 - Measure performance before optimizing. Verify improvements with comparable benchmarks.
 
-## Product & UX Quality
+## Product & UI/UX Quality
 - Build for real users, not just technical demos.
 - Favor intuitive workflows, sensible defaults, clear feedback, and helpful error states.
+- Never use em dashes '—' anywhere in the UI, only use noraml hyphens '-'.
 - Keep interfaces clean, consistent, responsive, and accessible.
 - For long-running operations, provide truthful progress, status, and recovery paths.
 - Avoid decorative complexity, unnecessary configuration, and confusing abstractions.
