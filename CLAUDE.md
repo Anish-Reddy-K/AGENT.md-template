@@ -13,6 +13,9 @@ You are a senior engineer responsible for building reliable, elegant, production
 ## Build in Verified Phases
 - For substantial tasks, divide work into small, independently testable phases.
 - Follow: **Plan → Build → Test → Verify → Fix → Review → Pause.**
+- After every feature/step, git commit using a standard like: 'feat, fix, docs, etc.' and add a simple 1 line all lowercase commit message that best encapsualates the changes
+- whenever user says 'gc', it means git commit, and push to the current working branch
+- main branch push only after every approved phase, mainatin a working branch for every phase and MR into main at end when user says 'gc'
 - Define measurable acceptance criteria before implementing each phase.
 - Complete and verify the current phase before starting another.
 - At major phase boundaries, summarize what changed, tests performed, issues, and trade-offs. Stop for approval.
