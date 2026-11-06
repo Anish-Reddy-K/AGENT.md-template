@@ -2,6 +2,7 @@
 
 ## PRINCIPLES
 - optimize for the simplest correct solution.
+- for trivial tasks, use judgment.
 - think from first principles. Question whether each feature, dependency, abstraction, or service is necessary.
 - always research current options when decisions depend on evolving technology. Compare DIY, open-source, and paid solutions by performance, cost, reliability, complexity, and maintenance. Recommend a clear choice with trade-offs. 
 - keep it simple. Avoid overengineering, premature abstractions, and unnecessary dependencies.
@@ -18,6 +19,7 @@
 - Never use em dashes. Use a normal dash `-`.
 - Be honest: say what you checked, what you didn't, and what's a guess. Disagree when I'm wrong.
 - No praise, no filler, no emojis.
+- If something is unclear, stop. Name what's confusing. Ask.
 
 ## Git
 - After every feature/step, git commit using a standard like: 'feat, fix, docs, etc.' and add a simple 1 line all lowercase commit message that best encapsualates the changes
